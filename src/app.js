@@ -6,7 +6,6 @@ import { loadIntoAo } from "./utils/ao.js";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Example route
 app.get("/", (req, res) => {
   res.send({ status: "running" });
 });
@@ -24,5 +23,5 @@ cron.schedule("* * * * *", async () => {
 });
 
 app.listen(PORT, () => {
-  console.log(`[⚡️] Server running at: ${PORT}`);
+  console.log(`[⚡️] Server running at port: ${PORT}`);
 });
