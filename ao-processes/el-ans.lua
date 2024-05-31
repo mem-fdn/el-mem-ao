@@ -6,7 +6,7 @@ local json = require("json")
 local ao = require("ao")
 
 --[[
-  This module implements the Census Surveys Protocol on ao
+  This module implements an EL data pipeline from MEM to AO.
 
   Terms:
     Sender: the wallet or Process that sent the Message
