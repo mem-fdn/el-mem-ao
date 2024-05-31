@@ -1,0 +1,31 @@
+{
+  "name": "el-mem-ao",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Extract-Load pipeline from MEM to AO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mem-fdn/el-mem-ao.git"
+  },
+  "keywords": [
+    "AO",
+    "MEM"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mem-fdn/el-mem-ao/issues"
+  },
+  "homepage": "https://github.com/mem-fdn/el-mem-ao#readme",
+  "dependencies": {
+    "@permaweb/aoconnect": "^0.0.55",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
