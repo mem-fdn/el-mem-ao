@@ -3,7 +3,7 @@
     <img src="https://github.com/decentldotland/MEM/assets/77340894/d840ef84-540f-4ccc-a7e0-1ed03c4af8dd" height="180">
   </a>
   <h3 align="center"><code>@mem-fdn/el-mem-ao</code></h3>
-  <p align="center">MEM-AO data pipeline/p>
+  <p align="center">MEM-AO data pipeline</p>
 </p>
 
 ## Abstract
